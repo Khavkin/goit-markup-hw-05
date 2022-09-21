@@ -704,8 +704,6 @@ footer .social-icon {
 
   transition: var(--transition);
   transition-property: bottom;
-  /* transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .gallery .link:hover .overlay,
