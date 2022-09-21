@@ -37,6 +37,13 @@
   pointer-events: none;
 }
 
+.centered {
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
 body {
   font-family: 'Roboto', 'Helvetica Neue', 'Verdana', 'Tahoma', sans-serif;
   font-size: 14px;
@@ -466,10 +473,6 @@ header {
 }
 
 .backdrop {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
   position: fixed;
   top: 0;
   left: 0;
@@ -483,7 +486,7 @@ header {
 }
 
 .order-window {
-  position: relative;
+  position: absolute;
 
   width: 528px;
   height: 581px;
